@@ -43,6 +43,7 @@ class CountingCubit extends Cubit<CountingState> {
       });
     }catch(e){
       print('BBC Error =========> $e');
+      print('Hello');
     }
 
   }
